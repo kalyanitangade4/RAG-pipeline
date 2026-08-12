@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+ 
+# Jupyter
+.ipynb_checkpoints/
+ 
+# Data (don't commit large corpora / PDFs)
+data/pdfs/
+data/*.pdf
+data/vector_store/
+ 
+# OS
+.DS_Store
